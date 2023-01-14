@@ -1,6 +1,6 @@
 @UsedCars 
 Feature: Used car feature 
-@UsedCars_Positive 
+
 Scenario: Validate car search page 
 	Given Navigate to carsguide home page "https://www.carsguide.com.au/"
 	When Move to buy + sell button 

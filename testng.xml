@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="tests">
-	<!-- <test thread-count="5" name="TestPomClass">
+	 <test thread-count="5" name="TestPomClass">
 		<classes>
 			<class name="runner.pomRunner"/>
 		</classes>
 	</test> 
-	 -->
+	
 	<test thread-count="5" name="TestLoginClass">
 		<classes>
 			<class name="runner.LoginRunner"/>
 		</classes>
-	</test>  
+	</test>   
 </suite> 

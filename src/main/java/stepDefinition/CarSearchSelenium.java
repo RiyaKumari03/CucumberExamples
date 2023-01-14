@@ -33,12 +33,12 @@ public class CarSearchSelenium {
 	@After("@Selenium")
 	public void quitDriver(Scenario scenario){
 		
-		if (scenario.isFailed()) {
+		/*if (scenario.isFailed()) {
 		      // Take a screenshot...
 		      final byte[] screenshot = driver.getScreenshotAs(OutputType.BYTES);
 		   // embed it in the report.
 		      scenario.attach(screenshot, "image/png",scenario.getName()); 
-		}
+		}*/
 		driver.close();
 		driver.quit();
 		
